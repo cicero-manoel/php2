@@ -35,6 +35,9 @@ class UsuarioDaoMysql implements UsuarioDAO {
         return $array;
 
     }
+    public function findByEmail($email) {
+        
+    }
 
     public function findById($id) {
 
